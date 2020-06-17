@@ -1,0 +1,43 @@
+html, body {
+	font-family: 'Noto Sans SC', sans-serif;
+	margin: 0;
+  	padding: 0;
+}
+/*Title and P for Title*/
+#thecamerontravels {
+	padding-top:200px;
+	padding-left:30px;
+	size:50px;
+}
+#thecamerontravelsp {
+	size:20px;
+	padding-left:35px;
+}
+.thecamerontravels, .thecamerontravelsp {
+	 margin: 0px;
+  	padding: 0px;
+}
+/*Navbar*/
+nav ul {
+	margin: 5px;
+	display: inline;
+	padding-right: 0px;
+	padding-left: 1040px;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 4px;
+}
+nav ul li a {
+	text-decoration:none;
+}
+ul li {
+	display: inline-block;
+}
+ul li a {
+	color:#333;
+}
+ul li a:hover {
+	color:#99a57e;
+}
