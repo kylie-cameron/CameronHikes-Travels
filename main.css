@@ -22,7 +22,7 @@ nav ul {
 	margin: 5px;
 	display: inline;
 	padding-right: 0px;
-	padding-left: 1040px;
+	padding-left: 1020px;
 }
 nav ul li {
 	display: inline-block;
@@ -41,3 +41,82 @@ ul li a {
 ul li a:hover {
 	color:#99a57e;
 }
+
+
+.vl {
+	margin-top:400px;
+	padding-top:1630px;
+  border-left: 6px solid green;
+  height: 500px;
+  position:absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+table {
+	align-content:center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height:300px;
+  width:500px;
+  margin-left:40px;
+  margin-top:50px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	height:300px;
+  width:500px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.cardd {
+  /* Add shadows to create the "card" effect */
+  color:white;
+  transition: 0.3s;
+  height:300px;
+  width:500px;
+  margin-left:40px;
+  margin-top:50px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cardd:hover {
+	height:300px;
+  width:500px;
+}
+footer {
+	margin-top:50px;
+}
+a {
+	color:#333;
+	text-decoration:none;
+}
+:root {
+  --mainColor: #99a57e;
+}
+
+a {
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--mainColor);
+}
+
+ {
+
+}
+
+
+
