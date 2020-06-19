@@ -1,7 +1,7 @@
 html, body {
 	font-family: 'Noto Sans SC', sans-serif;
 	margin: 0;
-  	padding: 0;
+  padding: 0;
 }
 /*Title and P for Title*/
 #thecamerontravels {
@@ -18,11 +18,16 @@ html, body {
   	padding: 0px;
 }
 /*Navbar*/
+#navbar {
+  background-color:white;
+  padding-left:1100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 nav ul {
-	margin: 5px;
 	display: inline;
-	padding-right: 0px;
-	padding-left: 1020px;
 }
 nav ul li {
 	display: inline-block;
@@ -41,11 +46,10 @@ ul li a {
 ul li a:hover {
 	color:#99a57e;
 }
-
-
-.vl {
-	margin-top:400px;
-	padding-top:1630px;
+.vl
+ {
+	margin-top:345px;
+	padding-top:2715px;
   border-left: 6px solid green;
   height: 500px;
   position:absolute;
@@ -56,7 +60,15 @@ ul li a:hover {
 table {
 	align-content:center;
 }
-
+/*This affects the 2020*/
+a {
+  text-decoration:none;
+  color:#99a57e;
+  size::15px;
+}
+a:hover {
+  color:#333c2c;
+}
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -66,7 +78,6 @@ table {
   margin-left:40px;
   margin-top:50px;
 }
-
 /* On mouse-over, add a deeper shadow */
 .card:hover {
 	height:300px;
@@ -87,7 +98,6 @@ table {
   margin-left:40px;
   margin-top:50px;
 }
-
 /* On mouse-over, add a deeper shadow */
 .cardd:hover {
 	height:300px;
@@ -96,27 +106,7 @@ table {
 footer {
 	margin-top:50px;
 }
-a {
-	color:#333;
-	text-decoration:none;
+/*Google Map*/
+iframe {
+  margin-top:10px;
 }
-:root {
-  --mainColor: #99a57e;
-}
-
-a {
-  color: var(--mainColor);
-  text-decoration: none;
-}
-
-a:hover {
-  color: transparent;
-  -webkit-text-stroke: 1px var(--mainColor);
-}
-
- {
-
-}
-
-
-
