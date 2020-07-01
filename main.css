@@ -115,18 +115,4 @@ iframe {
 only screen and (max-width: 1500px) {
   table, thead, tbody, th, td, tr {
     
-  }
-  thead tr {
-    position: absolute;
-  }
-  td {
-    border: none;
-    position: relative;
-  
-  }
-  td:before {
-    position: absolute;
-    width: 200px;
-    white-space: nowrap;
-   
-  }
+ 
