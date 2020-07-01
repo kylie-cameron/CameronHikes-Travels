@@ -49,7 +49,7 @@ ul li a:hover {
 .vl
  {
 	margin-top:345px;
-	padding-top:2715px;
+	padding-top:80%;
   border-left: 6px solid green;
   height: 500px;
   position:absolute;
@@ -73,15 +73,30 @@ a:hover {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  height:300px;
-  width:500px;
-  margin-left:40px;
-  margin-top:50px;
+  height:100%;
+  width:100%;
+  margin-left:40%;
+ 
 }
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-	height:300px;
-  width:500px;
+	height:100%;
+  width:100%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardd {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height:40%;
+  width:40%;
+  margin-left:40%;
+ 
+}
+/* On mouse-over, add a deeper shadow */
+.cardd:hover {
+  height:40%;
+  width:40%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -89,18 +104,7 @@ a:hover {
 .container {
   padding: 2px 16px;
 }
-.cardd {
-  /* Add shadows to create the "card" effect */
-  color:white;
-  transition: 0.3s;
-  height:50%;
-  width:50%;
-  
-/* On mouse-over, add a deeper shadow */
-.cardd:hover {
-	height:50%;
-  width:50%;
-}
+
 footer {
 	margin-top:50px;
 }
