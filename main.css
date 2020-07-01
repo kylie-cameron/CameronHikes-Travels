@@ -93,15 +93,13 @@ a:hover {
   /* Add shadows to create the "card" effect */
   color:white;
   transition: 0.3s;
-  height:300px;
-  width:500px;
-  margin-left:40px;
-  margin-top:50px;
-}
+  height:50%;
+  width:50%;
+  
 /* On mouse-over, add a deeper shadow */
 .cardd:hover {
-	height:300px;
-  width:500px;
+	height:50%;
+  width:50%;
 }
 footer {
 	margin-top:50px;
